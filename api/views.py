@@ -10,7 +10,7 @@ class RequestLogMiddleware(object):
          print(request.body)
 
 # Create your views here.
-class CreateView(RequestLogMiddleware,generics.ListCreateAPIView):
+class CreateView(generics.ListCreateAPIView):
     queryset=PlayerStats.objects.all()
     serializer_class=PlayerStatSerializer
 
