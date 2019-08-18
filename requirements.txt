@@ -1,0 +1,7 @@
+django
+djangorestframework
+gunicorn
+mysqlclient==1.4.1
+coverage
+django-heroku
+django-cors-headers
